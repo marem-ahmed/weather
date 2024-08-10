@@ -1,0 +1,75 @@
+:root{
+--dark-color: #292636;
+--second-color:#1E202B;
+--card-color:#323544;
+}
+.bg-card{
+  background-color: #323544;
+}
+.bg-dark-color{
+background-color: var(--dark-color);
+}
+.bg-second-color{
+  background-color: var(--second-color);
+}
+.sm-size{
+   width: 1.875rem;
+  height: 1.875rem; 
+}
+.bold-weight{
+    font-weight: 600;
+
+}
+.locationInput button {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  border-radius: 1.875rem;
+  /* transform: translateY(10%);  */
+}
+.locationInput .form-group {
+  position: relative;
+}
+.locationInput input {
+  border-radius: 1.875rem;
+}
+.locationInput .form-control:focus {
+  outline: 0;
+  border: 0;
+  background-color: var(--second-color);
+}
+
+.xwallpaper-main {
+  background-color: #1E202B;
+  height: 80vh;
+}
+
+.xwallpaper{
+    background-image: url(/imgs/banner.png);
+    height: 40vh;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+/* style of app container */
+.app-container .bone-deg{
+  font-size: 1.875rem;
+}
+
+
+/* style of footer */
+footer div {
+  width:;
+}
+
+footer .icons div{
+  background-color: var(--second-color);
+  margin-inline: .3125rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
