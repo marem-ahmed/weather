@@ -1,5 +1,16 @@
 
 let searchInput=document.querySelector('#searchInput')
+let ancorLinks=document.querySelectorAll('.nav-link')
+console.log(ancorLinks);
+
+ancorLinks.forEach((ancorLink) => {
+  ancorLink.addEventListener('click',function(){
+ancorLinks.forEach(ancorLink=>ancorLink.classList.remove('active-ancor'))
+this.classList.add('active-ancor')
+  })
+
+});
+
 // today
 let todayName=document.querySelector('#today-name')
 let todayNum=document.querySelector('#today-number')
@@ -30,7 +41,6 @@ todayText.innerHTML=api.current.condition.text
 }
 
  
-  console.log(searchInput);
 
 searchInput.addEventListener('input',function(){
   start(searchInput.value)
